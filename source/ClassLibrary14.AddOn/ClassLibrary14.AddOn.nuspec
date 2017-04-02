@@ -3,13 +3,16 @@
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
-    <title>Test Project</title>
+    <title>Test Project Add-on</title>
     <authors>Haukinger</authors>
     <owners>Haukinger</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A Test Project</description>
+    <description>An Add-on to the Test Project</description>
     <releaseNotes>Nothing yet</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Test Dummy</tags>
+    <dependencies>
+      <dependency id="ClassLibrary14" version="[$version$]"/>
+    </dependencies>
   </metadata>
 </package>
